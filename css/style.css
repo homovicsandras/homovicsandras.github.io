@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Teko:wght@700&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Nunito Sans", sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+.navbar {
+    padding: .8rem;
+}
+.navbar li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em;
+}
+.blackbox {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    padding: 1rem;
+}
+.btn-primary:hover {
+    background-color: #00b3db;
+    border-color: #00b3db;
+}
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    margin-bottom: .5rem;
+}
+.mainlogo {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+}
+.oneteam {
+    margin: auto;
+}
+.textbuttom {
+    text-align: center;
+}
+.padding {
+    padding-bottom: .5rem;
+}
+
+.btn-primary {
+    margin-bottom: 10px;
+}
+
+.redline {
+    background-color: #c1282d;
+    height: 3px;
+}
+.greyline {
+    background-color: rgba(107, 105, 105, 0.2);
+    height: 2px;
+    width: 90%;
+}
+span {
+    color: red;
+}
+.headerimage {
+    position: relative;
+  }
+  
+.headercenter {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+.card {
+    height: 100%;
+}  
+
+.box-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 -10px
+}
+.box {
+	flex: 1;
+	margin: 10px;
+	min-width: 300px;
+	background: white;
+	
+}
+.box-content {
+	padding: 1.5rem;
+	font-size: .9rem
+}
+.box-border {
+    border: 2px solid rgba(0,0,0,.2);
+    padding: .5rem;
+    text-align: center;
+}
+.box-border-text {
+    color: #b93632;
+    text-align: left;
+    padding: .5rem;
+}
+.boxheader1 {
+    color: #5e67ae;
+    font-weight: bolder;
+}
+.boxheader2 {
+    color: #559535;
+    font-weight: bolder;
+}
+.boxheader3 {
+    color: #28a7e1;
+    font-weight: bolder;
+}
+.boxheader4 {
+    color: #ef858c;
+    font-weight: bolder;
+}
+.contactimage img {
+    width: 100%;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 100%;
+}
+
+a.email:link {
+    color: #333;
+  }
+
+.ws-text {
+    color: #a83f97;
+    text-align: center;
+}
+.ws-box {
+    display: inline-block;
+    background-color: #dddada;
+    padding: 1rem;
+}
+.ws-box img {
+    border: 1px solid #a83f97;
+    margin-left: .5rem;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 1030px) {
+    .nav-link {
+        font-size: 1em;
+    }
+  }
+
+@media (max-width: 950px) {
+    .headercenter h1 {
+        font-size: 3rem;
+    }
+    .headercenter h4 {
+        font-size: .9rem;
+        padding: 0 10px;
+    }
+}
+@media (max-width: 600px) {
+    .spirith1 {
+        font-size: 2.5rem;
+    }
+    .ws-box img {
+        max-width: 65%;
+    }
+    footer h5 {
+        font-size: .9rem;
+    }
+}
